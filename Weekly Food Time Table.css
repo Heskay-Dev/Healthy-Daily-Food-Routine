@@ -1,0 +1,43 @@
+ body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background: #f2f2f2;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+      background: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    th, td {
+      padding: 15px;
+      text-align: center;
+      border: 1px solid #ddd;
+    }
+
+    th {
+      background-color: #444;
+      color: white;
+    }
+
+    /* Day color classes */
+    .monday    { background-color: #FFDDC1; }
+    .tuesday   { background-color: #FFD3B6; }
+    .wednesday { background-color: #FFAAA5; }
+    .thursday  { background-color: #D5AAFF; }
+    .friday    { background-color: #B5EAD7; }
+    .saturday  { background-color: #C7CEEA; }
+    .sunday    { background-color: #F9F871; }
+
+    /* Time slot colors */
+    .breakfast { color: #2E8B57; font-weight: bold; }
+    .lunch     { color: #FF4500; font-weight: bold; }
+    .dinner    { color: #1E90FF; font-weight: bold; }
